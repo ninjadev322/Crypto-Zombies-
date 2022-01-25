@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Dev\\tutorial\\Solidity\\CryptoZombies-SmartContract-Solidity\\contracts\\zombieFactory.sol": {
+      "lastModificationDate": 1643111225801,
+      "contentHash": "80c1cae99503e42296aaeb5cf53bf01e",
+      "sourceName": "contracts/zombieFactory.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.11"
+      ],
+      "artifacts": [
+        "ZombieFactory"
+      ]
+    },
+    "D:\\Dev\\tutorial\\Solidity\\CryptoZombies-SmartContract-Solidity\\contracts\\zombiefeeding.sol": {
+      "lastModificationDate": 1643111229152,
+      "contentHash": "ef3a1ae0de627a507b3d060b9f2b4ba6",
+      "sourceName": "contracts/zombiefeeding.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./zombieFactory.sol"
+      ],
+      "versionPragmas": [
+        "0.8.11"
+      ],
+      "artifacts": [
+        "ZombieFeeding"
+      ]
+    }
+  }
+}
