@@ -37,8 +37,8 @@
       ]
     },
     "D:\\Dev\\tutorial\\Solidity\\CryptoZombies-SmartContract-Solidity\\contracts\\zombiefeeding.sol": {
-      "lastModificationDate": 1643111229152,
-      "contentHash": "ef3a1ae0de627a507b3d060b9f2b4ba6",
+      "lastModificationDate": 1643138068673,
+      "contentHash": "5783eeb1a06b15205edf04aeb76d0daf",
       "sourceName": "contracts/zombiefeeding.sol",
       "solcConfig": {
         "version": "0.8.11",
@@ -70,6 +70,7 @@
         "0.8.11"
       ],
       "artifacts": [
+        "KittyInterface",
         "ZombieFeeding"
       ]
     }
